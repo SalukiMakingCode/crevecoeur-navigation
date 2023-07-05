@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+    <script src="./assets/js/navigation.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Crevecoeur</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div id="title"></div>
+        <div id="titleDate">Crevecoeur</div>
+        <div id="titlefake"> </div>
+    </nav>
+</header>
+<main id="main">
+    <article class="accueil" id="accueil">
+        <h1 id="btnAccueil" onclick="firstNavigation();">Entrer</h1>
+    </article>
+    <article id="gauche">
+        <h2> < </h2>
+        <img src="./assets/img/44-1.jpg" alt="" id="gaucheImg" onclick="pivote('left')"/>
+    </article>
+    <article id="centre" data-x="44" data-y="2" onclick="goGoGo()">
+        <h3 id="goTo">Avancer</h3>
+    </article>
+    <article id="droite">
+        <img src="./assets/img/44-3.jpg" alt="" id="droiteImg" onclick="pivote('right')"/>
+        <h2> > </h2>
+    </article>
+</main>
+<footer>
+</footer>
+</body>
+</html>

@@ -1,0 +1,399 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, svg, hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: normal;
+}
+
+mark {
+  background-color: transparent;
+}
+
+h1, h2, h3, h4, div {
+  font-family: "Ink Free", cursive;
+}
+
+body header {
+  margin: 0 auto;
+  max-width: 80%;
+}
+body header nav {
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  background-color: #006475;
+  color: white;
+  height: 1.4rem;
+  font-size: 1rem;
+}
+body header nav div {
+  width: 33.3%;
+}
+body header nav div#title {
+  font-size: 3rem;
+  width: 22%;
+  text-align: center;
+  z-index: 10;
+  padding-top: 1rem;
+  text-shadow: 4px 4px 3px #000000;
+}
+@media screen and (min-width: 300px) {
+  body header nav div#title {
+    font-size: 0.8rem;
+    padding-top: 1.3rem;
+  }
+}
+@media screen and (min-width: 400px) {
+  body header nav div#title {
+    font-size: 1rem;
+    padding-top: 1.3rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  body header nav div#title {
+    font-size: 1rem;
+    padding-top: 1.3rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  body header nav div#title {
+    font-size: 1.5rem;
+    padding-top: 1.3rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body header nav div#title {
+    font-size: 2rem;
+    padding-top: 1.3rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  body header nav div#title {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body header nav div#title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (min-width: 1250px) {
+  body header nav div#title {
+    font-size: 3rem;
+  }
+}
+body header nav div#titleDate {
+  text-align: center;
+  width: 56%;
+}
+body header nav div#titlefake {
+  text-align: center;
+  width: 22%;
+}
+body main {
+  margin: 0 auto;
+  max-width: 80%;
+  background-color: #006475;
+}
+body main .accueil {
+  background: no-repeat center/100% url("../img/accueil.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 300px) {
+  body main .accueil {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 400px) {
+  body main .accueil {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 500px) {
+  body main .accueil {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 600px) {
+  body main .accueil {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main .accueil {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 850px) {
+  body main .accueil {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body main .accueil {
+    height: 600px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  body main .accueil {
+    height: 750px;
+  }
+}
+body main .accueil h1 {
+  background-color: #00000080;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (min-width: 0px) {
+  body main .accueil h1 {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main .accueil h1 {
+    padding: 3rem;
+    font-size: 2rem;
+  }
+}
+body main #gauche {
+  z-index: 1;
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+  background: url("../img/background.jpg");
+}
+@media screen and (min-width: 300px) {
+  body main #gauche {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 400px) {
+  body main #gauche {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 500px) {
+  body main #gauche {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 600px) {
+  body main #gauche {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main #gauche {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 850px) {
+  body main #gauche {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body main #gauche {
+    height: 650px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  body main #gauche {
+    height: 730px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body main #gauche {
+    height: 740px;
+  }
+}
+body main #gauche #gaucheImg {
+  width: 90%;
+  border-radius: 5%;
+  transform: translate(-24px);
+}
+body main #gauche h2 {
+  z-index: 2;
+  transform: translate(28px);
+  background-color: #00000080;
+  color: white;
+  font-weight: bolder;
+}
+@media screen and (min-width: 0px) {
+  body main #gauche h2 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main #gauche h2 {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+body main #centre {
+  border-radius: 5%;
+  display: none;
+  justify-content: center;
+  align-items: flex-end;
+  background: no-repeat center/100% url("../img/44-2.jpg") #006475;
+  width: 56%;
+}
+@media screen and (min-width: 300px) {
+  body main #centre {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 400px) {
+  body main #centre {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 500px) {
+  body main #centre {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 600px) {
+  body main #centre {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main #centre {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 850px) {
+  body main #centre {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body main #centre {
+    height: 650px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  body main #centre {
+    height: 730px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body main #centre {
+    height: 740px;
+  }
+}
+body main #centre h3 {
+  background-color: #00000080;
+  color: white;
+}
+@media screen and (min-width: 0px) {
+  body main #centre h3 {
+    padding: 1rem;
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main #centre h3 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+body main #droite {
+  background: url("../img/background.jpg");
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+}
+@media screen and (min-width: 300px) {
+  body main #droite {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 400px) {
+  body main #droite {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 500px) {
+  body main #droite {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 600px) {
+  body main #droite {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main #droite {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 850px) {
+  body main #droite {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body main #droite {
+    height: 650px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  body main #droite {
+    height: 730px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body main #droite {
+    height: 740px;
+  }
+}
+body main #droite #droiteImg {
+  width: 90%;
+  border-radius: 5%;
+  transform: translate(24px);
+}
+body main #droite h2 {
+  transform: translate(-28px);
+  background-color: #00000080;
+  color: white;
+  font-weight: bolder;
+}
+@media screen and (min-width: 0px) {
+  body main #droite h2 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body main #droite h2 {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+body footer {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #006475;
+  color: white;
+  text-align: center;
+  height: 1rem;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
